@@ -1,0 +1,194 @@
+<!-- Nombre: Brenda Alicia Solis Calderon 
+      Fecha: 24/08/2025
+      Descripcion: Portafolio cv -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio - Brenda Solis </title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <video autoplay muted loop id="video-fondo">
+      <source src="img/fondo1.mp4" type="video/mp4">
+      Tu navegador no soporta la etiqueta de video.
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="content">
+      <h1>Hola, soy <span class="resaltar">Brenda Solis</span></h1>
+      <p>Programador / Desarrollador Creativo </p>
+      <a href="#proyectos" class="btn">Ver mis proyectos</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="background"></div>
+    <section id="study">
+      <img src="img/uanl.png" alt="Logo UANL" class="logo-uanl">
+      <h2>Academicos</h2>
+      <div class="study-list">
+        <div class="study-card from-left">
+          <img src="img/fcfm.png" alt="Logo FCFM" class="study-logo">
+          <h3>Licenciatura en Multimedia y Animacion Digital</h3>
+          <p>Universidad Facultad de Ciencias Fisico Matematicas, 2019 - 2024</p>
+        </div>
+        <div class="study-card from-right">
+          <img src="img/pablo.png" alt="Logo EIPTPL" class="study-logo">
+          <h3>Tecnico en Sistemas Computacionales</h3>
+          <p>Escuela Industrial y Preparatoria Tecnica Pablo Livas, 2012 - 2015</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="sobre-mi" class="slide-up">
+      <h2>Sobre mí</h2>
+      <p>
+        Mi interés por la programación comenzó desde el bachillerato. Desde entonces, descubrí una fascinación por el
+        proceso de crear software y desarrollar soluciones a través del código. Esta afinidad me llevó a elegir una
+        carrera relacionada con esta área. Aunque no puedo decir que sea una pasión absoluta, es un campo que disfruto,
+        me motiva y constantemente me reta a aprender. A lo largo del tiempo, he tenido diversas ideas que me gustaría
+        desarrollar, por lo que busco especializarme aún más, con el objetivo de seguir creciendo y dedicarme
+        profesionalmente a lo que realmente me gusta.
+      </p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <div class="skills">
+        <div class="skill-card">🛢️ MySQL/ MariaDB </div>
+        <div class="skill-card">🍃 MongoDB / Cassandra</div>
+        <div class="skill-card">✨ 3DS MAX</div>
+        <div class="skill-card">💻 HTML, CSS, JS</div>
+        <div class="skill-card">🕹️ Unity 3D / Unreal Engine 4</div>
+        <div class="skill-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 128 128"
+            style="vertical-align: middle;">
+            <path fill="#ff9800"
+              d="M64 0C28.65 0 0 28.65 0 64s28.65 64 64 64 64-28.65 64-64S99.35 0 64 0zm17.07 74.09h-7.63v7.63h-5.74v-7.63h-7.63v-5.74h7.63v-7.63h5.74v7.63h7.63v5.74z" />
+            <text x="20" y="100" fill="#fff" font-size="40">C++</text>
+          </svg>
+          C / C++ / Visual Basic / C#
+        </div>
+
+
+      </div>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="grid">
+
+        <div class="card">
+          <video width="320" height="240" autoplay muted loop>
+            <source src="img/proyecto1.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+          <h3> <a href=" https://www.youtube.com/watch?v=QXSVvNLR0HQ&ab_channel=BrendisNanitom" target="_blank"
+              class="link-proyecto">
+              Recorrido Virtual</a></h3>
+          <p>Proyecto Realizado en Visual Studio con un archivo de shader GLSL (Pixel Shader) como parte de un proyecto
+            en
+            C++.</p>
+        </div>
+
+        <div class="card">
+          <video width="320" height="240" autoplay muted loop>
+            <source src="img/proyecto2.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+          <h3>💻 Pagina Web ChannelFan</h3>
+          <p>Pagina web donde agregas reseñas de peliculas asi como tu calificacion por cada una</p>
+        </div>
+
+        <div class="card">
+          <video width="320" height="250" autoplay muted loop>
+            <source src="img/proyecto3.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+          <h3>Proyecto 3</h3>
+          <p>Juego en 3D modo single player estilo Batalla Naval</p>
+        </div>
+      </div>
+    </section>
+    <!--codigo html-->
+    <section id="codigo-html-block" style="padding: 40px 20px;">
+      <h2 style="text-align: center;">Vista previa + Código HTML/CSS/JS</h2>
+
+      <div class="contenedor-codigo">
+        <div class="preview-html" id="preview">
+          <h3>Vista previa</h3>
+          <div id="contenido">
+            <button id="demo-boton">Haz clic</button>
+            <p id="demo-texto">Texto inicial</p>
+          </div>
+        </div>
+
+        <div class="codigo-html">
+          <h3>Código HTML</h3>
+          <button class="btn-copiar" data-copiar="html">📋 Copiar código</button>
+          <pre><code id="codigo-html" class="language-html"></code></pre>
+        </div>
+      </div>
+
+      <div class="contenedor-codigo">
+        <div class="codigo-html">
+          <h3>Código CSS</h3>
+          <button class="btn-copiar" data-copiar="css">📋 Copiar código</button>
+          <pre><code id="codigo-css" class="language-css"></code></pre>
+        </div>
+      </div>
+
+      <div class="contenedor-codigo">
+        <div class="codigo-html">
+          <h3>Código JavaScript</h3>
+          <button class="btn-copiar" data-copiar="js">📋 Copiar código</button>
+          <pre><code id="codigo-js" class="language-javascript"></code></pre>
+        </div>
+      </div>
+    </section>
+    <!--Termina codigo html-->
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>📧 brenda.sc3006@outlook.com </p>
+      <p> <a href="https://linkedin.com/in/brenda-solis-a763b2216/?trk=public-profile-join-page" target="_blank">
+          <img src="img/linkedin.png" alt="LinkedIn" width="24" height="24"
+            style="vertical-align:middle; margin-right:8px;">
+          LinkedIn</a></p>
+      <p><a href="https://github.com/Brenda3006" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 
+  3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 
+  0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.089-.745.084-.729.084-.729 
+  1.205.084 1.84 1.236 1.84 1.236 1.07 1.835 2.809 1.305 
+  3.495.998.108-.776.418-1.305.762-1.605-2.665-.3-5.467-1.334-5.467-5.93 
+  0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 
+  0 0 1.005-.322 3.3 1.23a11.52 11.52 0 0 1 3-.405c1.02.005 
+  2.045.138 3 .405 2.28-1.552 3.285-1.23 
+  3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 
+  1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 
+  5.92.435.375.81 1.096.81 2.215 
+  0 1.6-.015 2.89-.015 3.285 0 .315.21.69.825.57C20.565 
+  22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+          </svg>
+          GitHub</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Brenda Solis - Portafolio Creativo</p>
+  </footer>
+  <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</body>
+
+</html>
